@@ -1,0 +1,84 @@
+.history-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  list-style-type: none;
+  background-color: #ffffff;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.time {
+  font-size: small;
+  font-weight: bold;
+  font-family: 'roboto';
+  color: #475569;
+  margin-right: 40px;
+  min-width: 60px;
+}
+.img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.title {
+  font-size: small;
+  font-weight: bold;
+  font-family: 'roboto';
+  color: #475569;
+  margin-right: 20px;
+}
+.domin-name {
+  font-size: small;
+  font-weight: 500;
+  font-family: 'roboto';
+  color: #64748b;
+  margin-right: 20px;
+}
+.delete-logo {
+  width: 20px;
+  height: 20px;
+  align-self: flex-end;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  align-self: flex-end;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 577px) {
+  .time {
+    margin-right: 50px;
+  }
+  .logo-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 200px;
+  }
+  .domin-name {
+    margin-bottom: -10px;
+  }
+  .title {
+    padding-top: 15px;
+  }
+}
